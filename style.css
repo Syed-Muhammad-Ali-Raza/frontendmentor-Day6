@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    background-color: #122649;
+   padding: 10px;
+
+}
+
+ul > li  {
+    flex-grow: 5;
+    text-transform: uppercase;
+    color: #a8b4c7;
+}
+
+a {
+    text-decoration: none;
+    color: #a8b4c7;
+}
+.container-fluid {
+    height: 100vh;
+    background-image: url('./assets/home/background-home-desktop.jpg');
+}
+
+.capital {
+    text-transform: uppercase;
+}
+
+
+
+.rnd-btn {
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    padding-top: 43px;
+    padding-left: 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 126px;
+    height: 123px;
+}
